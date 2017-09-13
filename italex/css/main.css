@@ -100,9 +100,20 @@ body, div, ul, li, h1 {
   font-size: 14px;
 }
 
+.pagination a {
+  color: blue;
+  text-decoration: none;
+}
+
+.pagination-right {
+  display: inline-block;
+  float: right;
+}
+
 #footer {
-  margin-top: 80px;
+  margin-top: 40px;
   padding: 40px;
+  padding-right: 10px;
   border-top: 1px grey dashed;
   font-size: 14px;
 }
