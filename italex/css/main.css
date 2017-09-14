@@ -36,7 +36,7 @@ body, div, ul, li, h1 {
 
 .bar-menu li {
   display: inline-block;
-  padding: 0 10px;
+  padding: 0 1ex;
   line-height: 3em;
 }
 
@@ -59,20 +59,20 @@ body, div, ul, li, h1 {
 }
 
 #header {
-  margin-bottom: 40px;
+  font-size: 120%;
+  margin-bottom: 2em;
   height: 100px;
 }
 
 #header-data {
-  height: 100px;
-  padding: 20px;
+  padding: 1ex;
 }
 
 #avatar {
   width: 100px;
   border-radius: 50%;
   float: left;
-  margin-right: 40px;
+  margin-right: 1em;
 }
 
 #header-description {
@@ -107,6 +107,7 @@ body, div, ul, li, h1 {
 }
 
 .tag {
+  width: 1em;
   display: inline-block;
   margin-left: .2em;
   vertical-align: middle;
@@ -143,6 +144,7 @@ body, div, ul, li, h1 {
   position: absolute;
   right: 3em;
   margin-bottom: 1em;
+  font-size: 120%;
 }
 
 .comment {
