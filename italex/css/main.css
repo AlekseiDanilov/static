@@ -157,7 +157,7 @@ body, div, ul, li, h1 {
   color: orange;
 }
 
-@media screen and (max-width: 520px) {
+@media screen and (max-width: 600px) {
   #bar {
     position: static;
   }
