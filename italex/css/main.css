@@ -132,19 +132,19 @@ body, div, ul, li, h1 {
 }
 
 .pagination {
-  color: #444;
+  width: 100%;
   text-align: center;
+  color: #444;
 }
 
 .pagination a {
-  color: dodgerblue;
+  color: #1e90ff;
   text-decoration: none;
 }
 
 #footer {
   margin-top: 40px;
   padding: 40px;
-  padding-right: 10px;
   border-top: 1px grey dashed;
   font-size: 14px;
 }
