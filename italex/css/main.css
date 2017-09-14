@@ -3,7 +3,7 @@ html, body {
 }
 
 html {
-  font-size: 120%;
+  font-size: 100%;
 }
 
 body, div, ul, li, h1 {
@@ -63,7 +63,6 @@ body, div, ul, li, h1 {
 }
 
 #header {
-  font-size: 120%;
   margin-bottom: 2em;
   height: 100px;
 }
@@ -111,11 +110,13 @@ body, div, ul, li, h1 {
 }
 
 .tag {
-  width: 1em;
-  height: auto;
   display: inline-block;
   margin-left: .2em;
   vertical-align: middle;
+}
+
+.tag:first-child {
+  margin-left: 0;
 }
 
 .pagination {
@@ -149,7 +150,6 @@ body, div, ul, li, h1 {
   position: absolute;
   right: 3em;
   margin-bottom: 1em;
-  font-size: 120%;
 }
 
 .comment {
