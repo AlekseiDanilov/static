@@ -23,8 +23,10 @@
 <div id="layout" class="centered">
   <div id="header">
     <img id="avatar" src="img/avatar.jpg">
-    <div id="header-name">Алексей Данилов</div>
-    <div id="header-description" class="comment">// IT-специалист компании NAUMEN, фуллстек-программист</div>
+    <div id="header-data">
+      <div>Алексей Данилов</div>
+      <div id="header-description" class="comment">// IT-специалист компании NAUMEN, фуллстек-программист</div>
+    </div>
   </div>
 
   <div id="content">
@@ -32,18 +34,23 @@
       <div class="news-item">
         <div class="news-title"><a href="#">Основы Docker: совмещаем приятное с полезным</a></div>
         <div class="news-text">Многие слышали про Docker, но никто его ни разу не видел. В этой статье мы подробно разберем, как работать с Docker'ом, зачем и для чего он нужен, как извлечь пользу от его использования, и какие при его использовании могут возникать пробелмы, чего с ним точно делать не надо, а что &mdash; стоит.</div>
-        <div class="news-data comment mono">// Три дня назад &middot; 11 сентября 2017 &middot; 10 просмотров</div>
+        <div class="news-data comment mono">// <div class="tags"><span class="docker"></span></div> Три дня назад &middot; 11 сентября 2017 &middot; 10 просмотров</div>
       </div>
 
       <div class="news-item">
-        <div class="news-title"><a href="#">Единая <span class="mono">JavaScript</span> валидация на сервере и клиенте</a></div>
-        <div class="news-text">Про <span class="mono">Node.js</span> уже никак не скажешь &#xAB;набирающий популярность&#xBB;. Связка технологий <span class="mono">nginx + Node.js</span> давно стала классической в мире IT. Разберем основные методики и практические моменты серверной и клиентской валидации, которая в случае с <span class="mono">JavaScript</span>, благодаря единому языку на сервере и клиенте может быть объединена, и позволит сэкономить множество усилий в разработке и поддержке продуктов.</div>
-        <div class="news-data comment mono">// На прошлой неделе &middot; 5 сентября 2017 &middot; 16 просмотров</div>
+        <div class="news-title"><a href="#">Развернытый гайд по Bash</a></div>
+        <div class="news-text">Давно замечаю, что большинство IT-шников совсем плохо владеют своим linux-терминалом. В большинстве случаев роль шелла выполняет язык Bash. Из тех, с кем мне доводилось работать, мало кто обращал внимание на то, что это полноценный язык программирования, на котором можно быстро реализовать большинство простейших задач, для которых обычно прибегают к сторонним (обычно графическим) утилитам. Групповое переименование или перемещение файлов, автоматический запуск стека программ в определенной последовательности с нетривиальной конфигурацией, выполнение одной комманды сразу, когда завершится другая &mdash; всё это можно сделать на Bash одной строкой в терминале.</div>
+        <div class="news-data comment mono">// <div class="tags"><span class="shell"></span></div> На прошлой неделе &middot; 5 сентября 2017 &middot; 16 просмотров</div>
       </div>
 
-      <div class="pagination">
-        <a href="" class="mono">&larr; older_posts(<span class="orange">26</span>);</a>
-        <a href="" class="mono pagination-right">newer_posts(<span class="orange">null</span>); &rarr;</a>
+      <div class="news-item">
+        <div class="news-title"><a href="#">Единая <span class="mono">JavaScript</span>-валидация на сервере и клиенте</a></div>
+        <div class="news-text">Про <span class="mono">Node.js</span> уже никак не скажешь &#xAB;набирающий популярность&#xBB;. Связка технологий <span class="mono">nginx + Node.js</span> давно стала классической в мире IT. Разберем основные методики и практические моменты серверной и клиентской валидации, которая в случае с <span class="mono">JavaScript</span>, благодаря единому языку на сервере и клиенте может быть объединена, и позволит сэкономить множество усилий в разработке и поддержке продуктов.</div>
+        <div class="news-data comment mono">// <div class="tags"><span class="js"></span><span class="nodejs"></span><span class="nginx"></span></div> На прошлой неделе &middot; 4 сентября 2017 &middot; 20 просмотров</div>
+      </div>
+
+      <div class="pagination mono">
+        <a href=""><i>get_older_posts</i></a>(<span class="orange">20</span>);
       </div>
     </div>
   </div>
