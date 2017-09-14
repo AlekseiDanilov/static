@@ -28,7 +28,7 @@ body, div, ul, li, h1 {
 
 #title {
   float: left;
-  font-size: 1.5em;
+  font-size: 1.2em;
   line-height: 2em;
   font-weight: bold;
 }
@@ -41,7 +41,7 @@ body, div, ul, li, h1 {
 .bar-menu li {
   display: inline-block;
   padding: 0 1ex;
-  line-height: 3em;
+  line-height: 2.4em;
 }
 
 .bar-menu li a {
@@ -173,6 +173,10 @@ body, div, ul, li, h1 {
     width: 100%;
     text-align: center;
     padding: 0;
+  }
+
+  .news-data {
+    font-size: .6em;
   }
 
   #copy {
